@@ -4,12 +4,12 @@ import { BiUserCircle } from "react-icons/bi";
 import { Link } from "react-router-dom";
 const LoginForm = () => {
   return (
-    <div className="max-w-5xl container mx-auto">
-      <div className="flex justify-center items-center gap-2 ">
+    <div className="max-w-5xl container mx-auto mt-12">
+      <div className="flex justify-center items-center flex-wrap gap-2 ">
         <span>
           <FaAws size={80} />
         </span>
-        <h1 className="text-2xl">Executive Briefing MatterPort</h1>
+        <h1 className="text-2xl text-center">Executive Briefing MatterPort</h1>
       </div>
       <h2 className="text-xl text-center">Choose a role</h2>
       <div className="flex flex-col justify-center items-center">
