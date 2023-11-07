@@ -12,17 +12,6 @@ const Navigation = () => {
           className="max-w-size w-full mx-auto p-4 "
         />
       </Link>
-
-      {/* <iframe
-        src=" https://matterport.com/discover/space/AGkkqndDnZz "
-        frameborder="0"
-      ></iframe>
-
-      // https://matterport.com/discover/space/T4YA5CDttFU 
-
-      //https://matterport.com/discover/space/yLMJWAYZ98K 
-
-       */}
     </div>
   );
 };
