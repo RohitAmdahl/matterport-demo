@@ -5,8 +5,10 @@ const Footer = () => {
   return (
     <div className="container p-4 mx-auto max-w-md flex flex-col justify-center items-center mt-11">
       <div className="mt-5">
-        <p> &copy; Hundred solution AS, All rights reserved.</p>
-        <p> Created by: Rohit Kumar Amdahl {year}</p>
+        <p className="text-md">
+          &copy; Hundred solution AS, All rights reserved.
+        </p>
+        <p className="text-md"> Created by: Rohit Kumar Amdahl {year}</p>
       </div>
     </div>
   );
