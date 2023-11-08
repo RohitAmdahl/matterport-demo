@@ -6,8 +6,7 @@ const MatterPort = () => {
   const selectedItem = dataLinks.find((item) => {
     return item.id === id;
   });
-  console.log(selectedItem);
-  console.log(id);
+
   if (!dataLinks === id) {
     return <div> Item not found </div>;
   }
