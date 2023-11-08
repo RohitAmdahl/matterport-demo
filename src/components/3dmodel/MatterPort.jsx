@@ -1,11 +1,14 @@
 import { useParams } from "react-router-dom";
 import { dataLinks } from "../../data/data";
 const MatterPort = () => {
-  const { id } = useParams();
+  let { id } = useParams();
+  id = parseInt(id, 10);
   const selectedItem = dataLinks.find((item) => {
-    return item.id === item.id;
+    return item.id === id;
   });
-  if (!selectedItem) {
+  console.log(selectedItem);
+  console.log(id);
+  if (!dataLinks === id) {
     return <div> Item not found </div>;
   }
 
