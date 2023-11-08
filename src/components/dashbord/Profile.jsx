@@ -6,17 +6,16 @@ import { FaAws } from "react-icons/fa";
 const ProfilePage = () => {
   return (
     <>
-      <div className="max-w-5xl container mx-auto pt-5 m-10">
-        <div className="flex justify-center items-center gap-2 ">
-          <span>
-            <FaAws size={80} />
-          </span>
-          <h1 className="text-2xl text-center">
+      {/* container max-w-5xl items-center gap-2 p-2 flex-col text-center */}
+      <div className=" container mx-auto max-w-5xl items-center  ">
+        <div className="text-center lg:m-10 lg:pt-5 ">
+          <h1 className="flex justify-center gap-1 text-center items-center text-2xl flex-wrap">
+            <span>
+              <FaAws size={80} />
+            </span>
             Executive Briefing MatterPort
           </h1>
-        </div>
-        <div className="text-center">
-          <h2>Choose your location</h2>
+          <h2 className="text-2xl">Choose your location</h2>
         </div>
       </div>
       <div className=" flex flex-wrap justify-center items-center gap-4 lg:mt-5 p-5 ">
