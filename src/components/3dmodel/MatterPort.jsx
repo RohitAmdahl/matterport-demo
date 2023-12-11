@@ -40,8 +40,6 @@ const MatterPort = () => {
                   <th className="py-2 px-4 border-b">Time</th>
                   <th className="py-2 px-4 border-b">Cloudiness</th>
                   <th className="py-2 px-4 border-b">Condition_des</th>
-                  <th className="py-2 px-4 border-b">Humidity</th>
-                  <th className="py-2 px-4 border-b">Pressure</th>
                 </tr>
               </thead>
               <tbody>
@@ -49,92 +47,66 @@ const MatterPort = () => {
                   <td className="py-2 px-4 border-b">2023-11-08 19:00:00 0</td>
                   <td className="py-2 px-4 border-b">0</td>
                   <td className="py-2 px-4 border-b">clear sky</td>
-                  <td className="py-2 px-4 border-b">51</td>
-                  <td className="py-2 px-4 border-b">1024</td>
                 </tr>
                 <tr>
                   <td className="py-2 px-4 border-b">2023-11-08 19:00:00 0</td>
                   <td className="py-2 px-4 border-b">0</td>
                   <td className="py-2 px-4 border-b">clear sky</td>
-                  <td className="py-2 px-4 border-b">48</td>
-                  <td className="py-2 px-4 border-b">1024</td>
                 </tr>
                 <tr>
                   <td className="py-2 px-4 border-b">2023-11-08 19:00:00 0</td>
                   <td className="py-2 px-4 border-b">0</td>
                   <td className="py-2 px-4 border-b">clear sky</td>
-                  <td className="py-2 px-4 border-b">31</td>
-                  <td className="py-2 px-4 border-b">1024</td>
                 </tr>
                 <tr>
                   <td className="py-2 px-4 border-b">2023-11-08 19:00:00 0</td>
                   <td className="py-2 px-4 border-b">0</td>
                   <td className="py-2 px-4 border-b">clear sky</td>
-                  <td className="py-2 px-4 border-b">61</td>
-                  <td className="py-2 px-4 border-b">1024</td>
                 </tr>
                 <tr>
                   <td className="py-2 px-4 border-b">2023-11-08 19:00:00 0</td>
                   <td className="py-2 px-4 border-b">0</td>
                   <td className="py-2 px-4 border-b">clear sky</td>
-                  <td className="py-2 px-4 border-b">41</td>
-                  <td className="py-2 px-4 border-b">1024</td>
                 </tr>
                 <tr>
                   <td className="py-2 px-4 border-b">2023-11-08 19:00:00 0</td>
                   <td className="py-2 px-4 border-b">0</td>
                   <td className="py-2 px-4 border-b">clear sky</td>
-                  <td className="py-2 px-4 border-b">47</td>
-                  <td className="py-2 px-4 border-b">1024</td>
                 </tr>
                 <tr>
                   <td className="py-2 px-4 border-b">2023-11-08 19:00:00 0</td>
                   <td className="py-2 px-4 border-b">0</td>
                   <td className="py-2 px-4 border-b">clear sky</td>
-                  <td className="py-2 px-4 border-b">61</td>
-                  <td className="py-2 px-4 border-b">1024</td>
                 </tr>
                 <tr>
                   <td className="py-2 px-4 border-b">2023-11-08 19:00:00 0</td>
                   <td className="py-2 px-4 border-b">0</td>
                   <td className="py-2 px-4 border-b">clear sky</td>
-                  <td className="py-2 px-4 border-b">41</td>
-                  <td className="py-2 px-4 border-b">1024</td>
                 </tr>
                 <tr>
                   <td className="py-2 px-4 border-b">2023-11-08 19:00:00 0</td>
                   <td className="py-2 px-4 border-b">0</td>
                   <td className="py-2 px-4 border-b">clear sky</td>
-                  <td className="py-2 px-4 border-b">47</td>
-                  <td className="py-2 px-4 border-b">1024</td>
                 </tr>
                 <tr>
                   <td className="py-2 px-4 border-b">2023-11-08 19:00:00 0</td>
                   <td className="py-2 px-4 border-b">0</td>
                   <td className="py-2 px-4 border-b">clear sky</td>
-                  <td className="py-2 px-4 border-b">47</td>
-                  <td className="py-2 px-4 border-b">1024</td>
                 </tr>
                 <tr>
                   <td className="py-2 px-4 border-b">2023-11-08 19:00:00 0</td>
                   <td className="py-2 px-4 border-b">0</td>
                   <td className="py-2 px-4 border-b">clear sky</td>
-                  <td className="py-2 px-4 border-b">61</td>
-                  <td className="py-2 px-4 border-b">1024</td>
                 </tr>
                 <tr>
                   <td className="py-2 px-4 border-b">2023-11-08 19:00:00 0</td>
                   <td className="py-2 px-4 border-b">0</td>
                   <td className="py-2 px-4 border-b">clear sky</td>
-                  <td className="py-2 px-4 border-b">41</td>
-                  <td className="py-2 px-4 border-b">1024</td>
                 </tr>
                 <tr>
                   <td className="py-2 px-4 border-b">2023-11-08 19:00:00 0</td>
                   <td className="py-2 px-4 border-b">0</td>
                   <td className="py-2 px-4 border-b">clear sky</td>
-                  <td className="py-2 px-4 border-b">47</td>
-                  <td className="py-2 px-4 border-b">1024</td>
                 </tr>
               </tbody>
             </table>
